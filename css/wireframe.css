@@ -21,7 +21,7 @@ body {
   background-color: var(--bg);
   background-image: url("../assets/bg-natives.svg");
   background-repeat: repeat;
-  background-size: 900px 520px;
+  background-size: 600px 600px;
   background-attachment: scroll;
   line-height: 1.5;
 }
@@ -30,7 +30,7 @@ body {
   max-width: 1080px;
   margin: 0 auto;
   padding: 24px 20px 60px;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.86);
   min-height: 100vh;
 }
 
@@ -78,7 +78,7 @@ section {
   border: 1px dashed var(--line);
   padding: 24px;
   margin-bottom: 24px;
-  background: rgba(255, 248, 235, 0.72);
+  background: rgba(255,255,255,0.6);
 }
 
 .img-placeholder {
