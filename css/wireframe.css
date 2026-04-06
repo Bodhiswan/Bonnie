@@ -176,6 +176,31 @@ blockquote {
   gap: 6px;
 }
 .card .img-placeholder { min-height: 220px; margin-bottom: 8px; }
+.card-img {
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  margin-bottom: 8px;
+  background: var(--soft);
+}
+.card-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.thumb {
+  display: block;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--soft);
+}
+.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.portrait-img {
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--soft);
+}
+.portrait-img img { width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block; }
 .card .title { font-family: var(--script); font-size: 1.4rem; color: var(--accent); }
 .card .meta { font-size: 0.85rem; color: var(--muted); }
 .card .price {
