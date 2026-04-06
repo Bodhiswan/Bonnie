@@ -1,0 +1,192 @@
+/* Bonnie Mills — wireframe styles */
+:root {
+  --bg: #fbfaf7;
+  --ink: #222;
+  --muted: #666;
+  --line: #ccc;
+  --soft: #f4f4f4;
+  --accent: #7a8a5c;   /* dusty eucalyptus */
+  --accent-2: #c9a227; /* wattle gold */
+  --script: "Dancing Script", "Parisienne", cursive;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  background-color: var(--bg);
+  background-image: url("../assets/bg-natives.svg");
+  background-repeat: repeat;
+  background-size: 420px auto;
+  line-height: 1.5;
+}
+
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 24px 20px 60px;
+  background: rgba(255, 255, 255, 0.86);
+  min-height: 100vh;
+}
+
+/* Headings use cursive script */
+h1, h2, h3, .site-title, .tagline {
+  font-family: var(--script);
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.5px;
+  margin: 0 0 12px;
+}
+
+h1 { font-size: 2.6rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.4rem; }
+
+a { color: var(--accent); }
+
+/* Header / nav */
+.site-header {
+  text-align: center;
+  padding: 20px 0 12px;
+  border-bottom: 1px dashed var(--line);
+}
+.site-title { font-size: 3.2rem; line-height: 1; }
+.tagline { font-size: 1.3rem; color: var(--accent-2); margin-top: 4px; }
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  padding: 14px 0;
+  border-bottom: 1px dashed var(--line);
+  margin-bottom: 28px;
+  font-family: var(--sans);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+}
+.nav a { text-decoration: none; color: var(--ink); }
+.nav a:hover, .nav a[aria-current="page"] { color: var(--accent); border-bottom: 1px solid var(--accent); }
+
+/* Wireframe blocks */
+section {
+  border: 1px dashed var(--line);
+  padding: 24px;
+  margin-bottom: 24px;
+  background: rgba(255,255,255,0.6);
+}
+
+.img-placeholder {
+  background: var(--soft);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  min-height: 180px;
+}
+.img-placeholder.hero { min-height: 340px; }
+.img-placeholder.portrait { min-height: 320px; }
+
+/* Home layout */
+.hero { display: grid; gap: 20px; }
+.featured {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.cta { text-align: center; }
+.cta a {
+  display: inline-block;
+  padding: 10px 22px;
+  border: 1px solid var(--accent);
+  text-decoration: none;
+  font-family: var(--sans);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+}
+
+/* About layout */
+.about-intro {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
+  align-items: start;
+}
+.process {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 16px;
+  align-items: start;
+}
+blockquote {
+  font-family: var(--script);
+  font-size: 1.6rem;
+  color: var(--accent);
+  border-left: 3px solid var(--accent-2);
+  margin: 0;
+  padding: 10px 20px;
+}
+
+/* Gallery */
+.gallery-note {
+  font-style: italic;
+  color: var(--muted);
+  text-align: center;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+.card {
+  border: 1px solid var(--line);
+  background: #fff;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.card .img-placeholder { min-height: 220px; margin-bottom: 8px; }
+.card .title { font-family: var(--script); font-size: 1.4rem; color: var(--accent); }
+.card .meta { font-size: 0.85rem; color: var(--muted); }
+.card .price {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-top: 4px;
+}
+.card .enquire {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 6px;
+  text-decoration: none;
+  color: var(--accent);
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 24px 0 0;
+  margin-top: 30px;
+  border-top: 1px dashed var(--line);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .featured, .about-intro, .process { grid-template-columns: 1fr; }
+  .site-title { font-size: 2.4rem; }
+  .nav { gap: 16px; flex-wrap: wrap; }
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420">
+  <title>Native Australian flowers background tile</title>
+  <desc>Low-opacity tiled motif featuring waratah, golden wattle, flannel flower, kangaroo paw, and eucalyptus leaves.</desc>
+  <g opacity="0.11">
+
+    <!-- Waratah (top-left) -->
+    <g transform="translate(70,70)">
+      <g fill="#b23a3a">
+        <circle cx="0" cy="0" r="18"/>
+        <circle cx="-10" cy="-12" r="6"/>
+        <circle cx="10" cy="-12" r="6"/>
+        <circle cx="-14" cy="4" r="6"/>
+        <circle cx="14" cy="4" r="6"/>
+        <circle cx="0" cy="-18" r="6"/>
+        <circle cx="-6" cy="10" r="5"/>
+        <circle cx="6" cy="10" r="5"/>
+      </g>
+      <path d="M0 18 Q-4 50 -20 70" stroke="#3f5a2a" stroke-width="3" fill="none"/>
+      <path d="M-20 50 Q-34 48 -40 60" stroke="#3f5a2a" stroke-width="2" fill="none"/>
+    </g>
+
+    <!-- Golden wattle (top-right) -->
+    <g transform="translate(320,90)">
+      <g fill="#d9a60b">
+        <circle cx="0" cy="0" r="4"/>
+        <circle cx="8" cy="-4" r="4"/>
+        <circle cx="-8" cy="-4" r="4"/>
+        <circle cx="14" cy="4" r="4"/>
+        <circle cx="-14" cy="4" r="4"/>
+        <circle cx="4" cy="10" r="4"/>
+        <circle cx="-4" cy="10" r="4"/>
+        <circle cx="22" cy="-2" r="4"/>
+        <circle cx="-22" cy="-2" r="4"/>
+        <circle cx="18" cy="14" r="4"/>
+        <circle cx="-18" cy="14" r="4"/>
+      </g>
+      <path d="M0 10 Q0 40 -10 60" stroke="#3f5a2a" stroke-width="2" fill="none"/>
+      <path d="M-6 30 l-10 -4" stroke="#3f5a2a" stroke-width="2"/>
+      <path d="M-8 45 l-12 -2" stroke="#3f5a2a" stroke-width="2"/>
+    </g>
+
+    <!-- Flannel flower (center) -->
+    <g transform="translate(210,210)">
+      <g fill="#f5f1e6" stroke="#7a8a5c" stroke-width="1.2">
+        <ellipse cx="0" cy="-22" rx="6" ry="14"/>
+        <ellipse cx="22" cy="0" rx="14" ry="6"/>
+        <ellipse cx="0" cy="22" rx="6" ry="14"/>
+        <ellipse cx="-22" cy="0" rx="14" ry="6"/>
+        <ellipse cx="16" cy="-16" rx="6" ry="12" transform="rotate(45 16 -16)"/>
+        <ellipse cx="-16" cy="-16" rx="6" ry="12" transform="rotate(-45 -16 -16)"/>
+        <ellipse cx="16" cy="16" rx="6" ry="12" transform="rotate(-45 16 16)"/>
+        <ellipse cx="-16" cy="16" rx="6" ry="12" transform="rotate(45 -16 16)"/>
+      </g>
+      <circle cx="0" cy="0" r="5" fill="#c9a227"/>
+    </g>
+
+    <!-- Kangaroo paw (bottom-left) -->
+    <g transform="translate(80,320)">
+      <path d="M0 0 Q2 -60 0 -100" stroke="#3f5a2a" stroke-width="3" fill="none"/>
+      <g fill="#c43f1e">
+        <path d="M0 -100 q-6 -6 -2 -16 q6 2 4 14 z"/>
+        <path d="M2 -88 q-6 -6 -2 -16 q6 2 4 14 z"/>
+        <path d="M4 -76 q-6 -6 -2 -16 q6 2 4 14 z"/>
+        <path d="M6 -64 q-6 -6 -2 -16 q6 2 4 14 z"/>
+        <path d="M8 -52 q-6 -6 -2 -16 q6 2 4 14 z"/>
+      </g>
+    </g>
+
+    <!-- Gum blossom (bottom-right) -->
+    <g transform="translate(330,330)">
+      <circle cx="0" cy="0" r="14" fill="none" stroke="#b23a3a" stroke-width="1"/>
+      <g stroke="#e65a3a" stroke-width="1.4">
+        <line x1="0" y1="0" x2="0" y2="-22"/>
+        <line x1="0" y1="0" x2="0" y2="22"/>
+        <line x1="0" y1="0" x2="22" y2="0"/>
+        <line x1="0" y1="0" x2="-22" y2="0"/>
+        <line x1="0" y1="0" x2="16" y2="-16"/>
+        <line x1="0" y1="0" x2="-16" y2="-16"/>
+        <line x1="0" y1="0" x2="16" y2="16"/>
+        <line x1="0" y1="0" x2="-16" y2="16"/>
+        <line x1="0" y1="0" x2="10" y2="-20"/>
+        <line x1="0" y1="0" x2="-10" y2="-20"/>
+        <line x1="0" y1="0" x2="20" y2="-10"/>
+        <line x1="0" y1="0" x2="-20" y2="-10"/>
+      </g>
+      <circle cx="0" cy="0" r="5" fill="#c9a227"/>
+      <ellipse cx="-24" cy="18" rx="14" ry="5" fill="#7a8a5c" transform="rotate(-25 -24 18)"/>
+      <ellipse cx="24" cy="18" rx="14" ry="5" fill="#7a8a5c" transform="rotate(25 24 18)"/>
+    </g>
+
+    <!-- Eucalyptus sprigs scattered -->
+    <g stroke="#7a8a5c" stroke-width="1.4" fill="#a8b884">
+      <g transform="translate(200,60)">
+        <path d="M0 0 Q10 20 20 40" fill="none"/>
+        <ellipse cx="4" cy="8" rx="5" ry="3" transform="rotate(30 4 8)"/>
+        <ellipse cx="9" cy="18" rx="5" ry="3" transform="rotate(30 9 18)"/>
+        <ellipse cx="14" cy="28" rx="5" ry="3" transform="rotate(30 14 28)"/>
+        <ellipse cx="19" cy="38" rx="5" ry="3" transform="rotate(30 19 38)"/>
+      </g>
+      <g transform="translate(60,200)">
+        <path d="M0 0 Q20 5 40 0" fill="none"/>
+        <ellipse cx="8" cy="2" rx="5" ry="3"/>
+        <ellipse cx="18" cy="4" rx="5" ry="3"/>
+        <ellipse cx="28" cy="3" rx="5" ry="3"/>
+        <ellipse cx="38" cy="1" rx="5" ry="3"/>
+      </g>
+      <g transform="translate(340,200)">
+        <path d="M0 0 Q-10 20 -20 40" fill="none"/>
+        <ellipse cx="-4" cy="8" rx="5" ry="3" transform="rotate(-30 -4 8)"/>
+        <ellipse cx="-9" cy="18" rx="5" ry="3" transform="rotate(-30 -9 18)"/>
+        <ellipse cx="-14" cy="28" rx="5" ry="3" transform="rotate(-30 -14 28)"/>
+      </g>
+    </g>
+
+  </g>
+</svg>
