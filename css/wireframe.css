@@ -140,6 +140,7 @@ section {
   gap: 16px;
   align-items: start;
 }
+.process.process-single { grid-template-columns: 2fr 1fr; }
 blockquote {
   font-family: var(--script);
   font-size: 1.6rem;
@@ -193,7 +194,8 @@ blockquote {
 }
 .portrait-img img { width: 100%; height: auto; display: block; }
 .card .title { font-family: var(--script); font-size: 1.4rem; color: var(--accent); }
-.card .meta { font-size: 0.85rem; color: var(--muted); }
+.card .meta { font-size: 0.85rem; color: var(--muted); display: none; }
+.card .price { display: none !important; }
 .card .price {
   font-size: 1rem;
   font-weight: 600;
