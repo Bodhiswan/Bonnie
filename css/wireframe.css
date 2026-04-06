@@ -1,6 +1,6 @@
 /* Bonnie Mills — wireframe styles */
 :root {
-  --bg: #fbfaf7;
+  --bg: #f5ead9;
   --ink: #222;
   --muted: #666;
   --line: #ccc;
@@ -21,7 +21,8 @@ body {
   background-color: var(--bg);
   background-image: url("../assets/bg-natives.svg");
   background-repeat: repeat;
-  background-size: 420px auto;
+  background-size: 600px 600px;
+  background-attachment: scroll;
   line-height: 1.5;
 }
 
