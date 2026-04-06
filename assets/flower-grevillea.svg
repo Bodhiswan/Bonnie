@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="420" viewBox="0 0 220 420">
+  <title>Grevillea spike with curled florets</title>
+  <g fill="none" stroke="#6b4a32" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- main stem -->
+    <path d="M110 410 C 104 340, 120 270, 110 200 C 104 160, 114 120, 108 80"/>
+
+    <!-- central spike axis -->
+    <path d="M108 190 C 112 150, 104 110, 108 70 C 110 40, 106 20, 108 10" stroke-width="1.2"/>
+
+    <!-- curled florets along spike (left and right, pairs) -->
+    <g stroke-width="1.3">
+      <!-- row by row from bottom of spike to top -->
+      <path d="M108 190 C 96 184, 86 176, 88 164 C 92 156, 102 158, 104 170"/>
+      <path d="M108 190 C 120 184, 130 176, 128 164 C 124 156, 114 158, 112 170"/>
+
+      <path d="M108 170 C 94 164, 82 156, 86 144 C 92 136, 102 138, 104 150"/>
+      <path d="M108 170 C 122 164, 134 156, 130 144 C 124 136, 114 138, 112 150"/>
+
+      <path d="M108 150 C 94 144, 82 136, 86 124 C 92 116, 102 118, 104 130"/>
+      <path d="M108 150 C 122 144, 134 136, 130 124 C 124 116, 114 118, 112 130"/>
+
+      <path d="M108 130 C 94 124, 82 116, 86 104 C 92 96, 102 98, 104 110"/>
+      <path d="M108 130 C 122 124, 134 116, 130 104 C 124 96, 114 98, 112 110"/>
+
+      <path d="M108 110 C 96 104, 86 96, 90 86 C 96 80, 104 82, 106 92"/>
+      <path d="M108 110 C 120 104, 130 96, 126 86 C 120 80, 112 82, 110 92"/>
+
+      <path d="M108 90 C 98 86, 90 78, 94 70 C 100 66, 106 68, 108 76"/>
+      <path d="M108 90 C 118 86, 126 78, 122 70 C 116 66, 110 68, 108 76"/>
+
+      <path d="M108 70 C 100 66, 94 58, 98 52 C 104 50, 108 52, 108 60"/>
+      <path d="M108 70 C 116 66, 122 58, 118 52 C 112 50, 108 52, 108 60"/>
+
+      <!-- tiny style tips poking forward -->
+      <path d="M104 180 q-6 -4 -10 -12" stroke-width="0.9"/>
+      <path d="M112 180 q6 -4 10 -12" stroke-width="0.9"/>
+      <path d="M104 140 q-6 -4 -10 -12" stroke-width="0.9"/>
+      <path d="M112 140 q6 -4 10 -12" stroke-width="0.9"/>
+      <path d="M104 100 q-6 -4 -10 -10" stroke-width="0.9"/>
+      <path d="M112 100 q6 -4 10 -10" stroke-width="0.9"/>
+    </g>
+
+    <!-- narrow pointed leaves lower on the plant -->
+    <path d="M108 230 q26 -6 44 -24 q-4 16 -16 26 q-14 8 -28 4 z"/>
+    <path d="M108 260 q-26 -4 -42 -22 q2 16 14 24 q14 8 28 4 z"/>
+    <path d="M108 290 q28 -4 46 -22 q-4 16 -18 24 q-14 6 -28 4 z"/>
+    <path d="M108 320 q-26 -2 -40 -18 q0 14 12 22 q12 6 28 2 z"/>
+    <path d="M108 350 q24 -2 38 -18 q-2 14 -12 20 q-12 6 -26 4 z"/>
+    <path d="M108 380 q-22 0 -34 -14 q0 12 10 18 q10 4 24 2 z"/>
+    <!-- leaf midribs -->
+    <path d="M108 232 q22 -4 38 -20" stroke-width="0.9"/>
+    <path d="M108 262 q-22 -2 -36 -18" stroke-width="0.9"/>
+    <path d="M108 292 q24 -2 40 -18" stroke-width="0.9"/>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="260" height="420" viewBox="0 0 260 420">
+  <title>Eucalyptus blossom with hanging leaves</title>
+  <g fill="none" stroke="#6b4a32" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- main stem curving down -->
+    <path d="M110 10 C 120 50, 130 90, 140 130 C 150 180, 150 240, 145 300 C 140 350, 130 390, 120 410"/>
+
+    <!-- two round gumnut blossoms at the top, hanging -->
+    <!-- blossom 1 -->
+    <g transform="translate(100,120)">
+      <!-- short stem -->
+      <path d="M10 -20 q-4 10 -6 18"/>
+      <!-- receptacle/cup -->
+      <path d="M-14 0 a14 10 0 1 0 28 0"/>
+      <!-- outer circle of stamens -->
+      <circle cx="0" cy="0" r="18"/>
+      <!-- stamen rays -->
+      <g stroke-width="1">
+        <line x1="0" y1="0" x2="0" y2="-18"/>
+        <line x1="0" y1="0" x2="4" y2="-18"/>
+        <line x1="0" y1="0" x2="-4" y2="-18"/>
+        <line x1="0" y1="0" x2="8" y2="-16"/>
+        <line x1="0" y1="0" x2="-8" y2="-16"/>
+        <line x1="0" y1="0" x2="12" y2="-14"/>
+        <line x1="0" y1="0" x2="-12" y2="-14"/>
+        <line x1="0" y1="0" x2="15" y2="-10"/>
+        <line x1="0" y1="0" x2="-15" y2="-10"/>
+        <line x1="0" y1="0" x2="17" y2="-6"/>
+        <line x1="0" y1="0" x2="-17" y2="-6"/>
+        <line x1="0" y1="0" x2="18" y2="0"/>
+        <line x1="0" y1="0" x2="-18" y2="0"/>
+      </g>
+      <circle cx="0" cy="0" r="2" fill="#6b4a32"/>
+    </g>
+
+    <!-- blossom 2 -->
+    <g transform="translate(150,150)">
+      <path d="M-6 -24 q4 10 6 20"/>
+      <path d="M-15 0 a15 11 0 1 0 30 0"/>
+      <circle cx="0" cy="0" r="20"/>
+      <g stroke-width="1">
+        <line x1="0" y1="0" x2="0" y2="-20"/>
+        <line x1="0" y1="0" x2="5" y2="-20"/>
+        <line x1="0" y1="0" x2="-5" y2="-20"/>
+        <line x1="0" y1="0" x2="10" y2="-18"/>
+        <line x1="0" y1="0" x2="-10" y2="-18"/>
+        <line x1="0" y1="0" x2="14" y2="-14"/>
+        <line x1="0" y1="0" x2="-14" y2="-14"/>
+        <line x1="0" y1="0" x2="18" y2="-10"/>
+        <line x1="0" y1="0" x2="-18" y2="-10"/>
+        <line x1="0" y1="0" x2="20" y2="-4"/>
+        <line x1="0" y1="0" x2="-20" y2="-4"/>
+        <line x1="0" y1="0" x2="20" y2="2"/>
+        <line x1="0" y1="0" x2="-20" y2="2"/>
+      </g>
+      <circle cx="0" cy="0" r="2" fill="#6b4a32"/>
+    </g>
+
+    <!-- long, curved hanging eucalyptus leaves -->
+    <path d="M140 160 C 170 200, 190 260, 185 340 C 170 320, 155 290, 148 250 C 142 220, 140 190, 140 160 z"/>
+    <path d="M148 180 C 180 230, 200 290, 190 380 C 172 350, 158 310, 152 270 C 148 240, 146 210, 148 180 z"/>
+    <path d="M130 200 C 110 240, 102 300, 115 370 C 124 340, 130 300, 132 260 C 134 230, 132 210, 130 200 z"/>
+    <path d="M155 230 C 190 270, 205 320, 198 390 C 180 370, 168 340, 162 310 C 156 280, 154 250, 155 230 z"/>
+    <!-- leaf central veins -->
+    <path d="M142 170 C 158 230, 170 290, 180 340" stroke-width="0.9"/>
+    <path d="M150 190 C 166 240, 180 300, 188 360" stroke-width="0.9"/>
+    <path d="M130 210 C 120 260, 118 310, 120 360" stroke-width="0.9"/>
+  </g>
+</svg>

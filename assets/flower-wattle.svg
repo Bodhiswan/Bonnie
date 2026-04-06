@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="420" viewBox="0 0 220 420">
+  <title>Golden wattle (acacia)</title>
+  <g fill="none" stroke="#6b4a32" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- main stem -->
+    <path d="M115 410 C 108 340, 122 270, 112 200 C 106 150, 118 100, 110 40"/>
+
+    <!-- small branchlets reaching up to blossom clusters -->
+    <path d="M112 70 q-12 -8 -20 -22"/>
+    <path d="M112 90 q14 -6 22 -18"/>
+    <path d="M114 130 q-16 -4 -26 -16"/>
+    <path d="M112 160 q16 -2 26 -14"/>
+
+    <!-- wattle ball clusters (top) -->
+    <g>
+      <!-- cluster 1 (upper left) -->
+      <g transform="translate(92,48)">
+        <circle cx="0" cy="0" r="7"/>
+        <circle cx="12" cy="-4" r="7"/>
+        <circle cx="-10" cy="-4" r="7"/>
+        <circle cx="6" cy="10" r="7"/>
+        <circle cx="-8" cy="10" r="7"/>
+        <circle cx="20" cy="4" r="6"/>
+        <circle cx="-18" cy="4" r="6"/>
+        <!-- fuzzy dots -->
+        <g stroke-width="0.8">
+          <circle cx="0" cy="0" r="3"/>
+          <circle cx="12" cy="-4" r="3"/>
+          <circle cx="-10" cy="-4" r="3"/>
+          <circle cx="6" cy="10" r="3"/>
+          <circle cx="-8" cy="10" r="3"/>
+        </g>
+      </g>
+
+      <!-- cluster 2 (upper right) -->
+      <g transform="translate(134,72)">
+        <circle cx="0" cy="0" r="7"/>
+        <circle cx="10" cy="-4" r="6"/>
+        <circle cx="-10" cy="-4" r="6"/>
+        <circle cx="4" cy="10" r="6"/>
+        <circle cx="-8" cy="8" r="6"/>
+        <circle cx="16" cy="4" r="5"/>
+        <g stroke-width="0.8">
+          <circle cx="0" cy="0" r="2.5"/>
+          <circle cx="10" cy="-4" r="2.5"/>
+          <circle cx="-10" cy="-4" r="2.5"/>
+        </g>
+      </g>
+
+      <!-- cluster 3 (mid left) -->
+      <g transform="translate(88,114)">
+        <circle cx="0" cy="0" r="6"/>
+        <circle cx="10" cy="-4" r="6"/>
+        <circle cx="-8" cy="-4" r="6"/>
+        <circle cx="4" cy="9" r="5"/>
+        <circle cx="-6" cy="9" r="5"/>
+        <g stroke-width="0.8">
+          <circle cx="0" cy="0" r="2.5"/>
+          <circle cx="10" cy="-4" r="2.5"/>
+          <circle cx="-8" cy="-4" r="2.5"/>
+        </g>
+      </g>
+
+      <!-- cluster 4 (mid right) -->
+      <g transform="translate(138,146)">
+        <circle cx="0" cy="0" r="6"/>
+        <circle cx="9" cy="-4" r="5"/>
+        <circle cx="-9" cy="-4" r="5"/>
+        <circle cx="4" cy="8" r="5"/>
+        <circle cx="-6" cy="8" r="5"/>
+        <g stroke-width="0.8">
+          <circle cx="0" cy="0" r="2.5"/>
+          <circle cx="9" cy="-4" r="2.5"/>
+          <circle cx="-9" cy="-4" r="2.5"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- long narrow phyllodes (acacia leaves) along stem -->
+    <path d="M112 200 q28 0 46 -16 q-2 14 -14 22 q-14 8 -32 2 z"/>
+    <path d="M112 230 q-28 -2 -44 -18 q-2 16 12 24 q14 6 32 -2 z"/>
+    <path d="M112 260 q30 0 48 -16 q-2 16 -16 24 q-16 6 -32 0 z"/>
+    <path d="M112 290 q-28 2 -42 -14 q-2 14 10 22 q14 6 32 0 z"/>
+    <path d="M112 320 q28 -2 44 -18 q-2 14 -12 22 q-14 6 -32 2 z"/>
+    <path d="M112 350 q-26 0 -40 -14 q-2 12 10 20 q12 4 30 0 z"/>
+    <path d="M112 380 q24 0 40 -14 q-2 12 -10 18 q-12 4 -30 2 z"/>
+    <!-- midribs -->
+    <path d="M112 202 q26 -2 42 -16" stroke-width="0.9"/>
+    <path d="M112 232 q-26 -2 -40 -16" stroke-width="0.9"/>
+    <path d="M112 262 q28 -2 44 -16" stroke-width="0.9"/>
+  </g>
+</svg>
