@@ -196,7 +196,7 @@ blockquote {
 }
 .portrait-img img { width: 100%; height: auto; display: block; }
 .card .title { font-family: var(--script); font-size: 1.4rem; color: var(--accent); }
-.card .meta { font-size: 0.85rem; color: var(--muted); display: none; }
+.card .meta { font-size: 0.85rem; color: var(--muted); font-style: italic; }
 .card .price { display: none !important; }
 .card .price {
   font-size: 1rem;
