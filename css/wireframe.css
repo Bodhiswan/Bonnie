@@ -52,9 +52,12 @@ a { color: var(--accent); }
 /* Header / nav */
 .site-header {
   text-align: center;
-  padding: 20px 0 12px;
+  padding: 20px;
   border-bottom: 1px dashed var(--line);
+  background: rgba(255, 248, 235, 0.92);
 }
+.nav { background: rgba(255, 248, 235, 0.92); }
+.site-footer { background: rgba(255, 248, 235, 0.92); padding: 24px; }
 .site-title { font-size: 3.2rem; line-height: 1; }
 .tagline { font-size: 1.3rem; color: var(--accent-2); margin-top: 4px; }
 
@@ -78,7 +81,7 @@ section {
   border: 1px dashed var(--line);
   padding: 24px;
   margin-bottom: 24px;
-  background: rgba(255, 248, 235, 0.72);
+  background: rgba(255, 248, 235, 0.92);
 }
 
 .img-placeholder {
